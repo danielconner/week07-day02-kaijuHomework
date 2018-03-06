@@ -1,4 +1,4 @@
-public class GiantTortoise extends Kaiju implements IAttack, IMove{
+public class GiantTortoise extends Kaiju implements IAttack, IMove, IBuildingAttack{
 
     public GiantTortoise(String name, int health, int attack) {
         super(name, health, attack);
@@ -15,5 +15,13 @@ public class GiantTortoise extends Kaiju implements IAttack, IMove{
     @Override
     public String move(String move) {
         return getName() + " has just " + move;
+    }
+
+    @Override
+    public String buildingAttack(Building building) {
+        if (building.getDamagedLimit() - getAttack() <= 0) {
+            return "a " + building.getType() + " has been destroyed by " + getName() +"!";
+        }
+        else return building.getType() + " has been badly damaged";
     }
 }

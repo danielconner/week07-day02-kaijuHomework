@@ -7,11 +7,13 @@ public class GiantTortoiseTest {
 
     GiantTortoise giantTortoise;
     Humvee humvee;
+    ApartmentBlock apartmentBlock;
 
     @Before
     public void before(){
-        giantTortoise = new GiantTortoise("Frank", 150, 15);
+        giantTortoise = new GiantTortoise("Frank", 150, 25);
         humvee = new Humvee("Carrier", 20);
+        apartmentBlock = new ApartmentBlock("three storey mass dwelling", 20);
     }
 
     @Test
@@ -42,6 +44,11 @@ public class GiantTortoiseTest {
     @Test
     public void canMove(){
         assertEquals("Frank has just Magic Rolled", giantTortoise.move("Magic Rolled"));
+    }
+
+    @Test
+    public void canAttackBuilding(){
+        assertEquals("a three storey mass dwelling has been destroyed by Frank!", giantTortoise.buildingAttack(apartmentBlock));
     }
 
 }
