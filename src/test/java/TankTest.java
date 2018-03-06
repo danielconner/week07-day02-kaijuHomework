@@ -28,4 +28,9 @@ public class TankTest {
     public void canAttackKaiju(){
         assertEquals("Destroya has attacked Dave", tank.armyAttack(jesus));
     }
+
+    @Test
+    public void canNukeKiaju(){
+        assertEquals("Destroya has nuked Dave", tank.nuke(jesus));
+    }
 }

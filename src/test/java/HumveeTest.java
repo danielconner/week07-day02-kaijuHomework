@@ -28,4 +28,9 @@ public class HumveeTest {
     public void canAttackKaiju(){
         assertEquals("Carrier has attacked Pascal", humvee.armyAttack(giantTortoise));
     }
+
+    @Test
+    public void canKillKaiju(){
+        assertEquals("Carrier has nuked Pascal", humvee.nuke(giantTortoise));
+    }
 }
