@@ -39,4 +39,9 @@ public class GiantTortoiseTest {
         assertEquals("Carrier has been damaged and health is currently 5", giantTortoise.attackVechile(humvee));
     }
 
+    @Test
+    public void canMove(){
+        assertEquals("Frank has just Magic Rolled", giantTortoise.move("Magic Rolled"));
+    }
+
 }

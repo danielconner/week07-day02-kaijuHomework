@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb5ccd4b-a3ec-44be-9cda-aa8c74fc9f35" name="Default" comment="" />
+    <list default="true" id="eb5ccd4b-a3ec-44be-9cda-aa8c74fc9f35" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/GiantTortoise.java" afterPath="$PROJECT_DIR$/src/main/java/GiantTortoise.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RobotJesus.java" afterPath="$PROJECT_DIR$/src/main/java/RobotJesus.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GiantTortoiseTest.java" afterPath="$PROJECT_DIR$/src/test/java/GiantTortoiseTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RobotJesusTest.java" afterPath="$PROJECT_DIR$/src/test/java/RobotJesusTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,11 +27,13 @@
       <file leaf-file-name="RobotJesus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RobotJesus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,8 +42,8 @@
       <file leaf-file-name="RobotJesusTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RobotJesusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="38" column="85" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="85" />
+            <state relative-caret-position="432">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#348#349#0" expanded="true" />
@@ -49,29 +56,33 @@
                 <element signature="e#693#694#0" expanded="true" />
                 <element signature="e#734#735#0" expanded="true" />
                 <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GiantTortoise.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GiantTortoise.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GiantTortoise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="17" selection-end-column="5" />
               <folding>
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GiantTortoiseTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GiantTortoiseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GiantTortoiseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="38" column="112" lean-forward="false" selection-start-line="38" selection-start-column="112" selection-end-line="38" selection-end-column="112" />
+            <state relative-caret-position="135">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#367#368#0" expanded="true" />
@@ -82,6 +93,8 @@
                 <element signature="e#628#629#0" expanded="true" />
                 <element signature="e#663#664#0" expanded="true" />
                 <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#1015#1016#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,24 +133,6 @@
               <folding>
                 <element signature="e#78#79#0" expanded="true" />
                 <element signature="e#113#114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TankTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TankTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="43" lean-forward="false" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,6 +177,9 @@
         <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -482,10 +480,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Humvee.java" />
         <option value="$PROJECT_DIR$/src/test/java/HumveeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/IAttack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IMove.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GiantTortoise.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RobotJesus.java" />
         <option value="$PROJECT_DIR$/src/test/java/RobotJesusTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/GiantTortoiseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/RobotJesus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GiantTortoise.java" />
       </list>
     </option>
   </component>
@@ -494,6 +493,7 @@
     <option name="width" value="1280" />
     <option name="height" value="709" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -572,7 +572,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GiantTortoiseTest">
+  <component name="RunManager" selected="JUnit.All in Kaiju_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -763,11 +763,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GiantTortoiseTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RobotJesusTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RobotJesusTest.canAttack" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GiantTortoiseTest.canAttack" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in Kaiju_test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Kaiju_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GiantTortoiseTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RobotJesusTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RobotJesusTest.canAttack" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GiantTortoiseTest.canAttack" />
       </list>
     </recent_temporary>
   </component>
@@ -788,7 +788,10 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Kaiju_test - 2018.03.06 at 16h 02m 06s.xml">
+    <history-entry file="All_in_Kaiju_test - 2018.03.06 at 16h 32m 46s.xml">
+      <configuration name="All in Kaiju_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Kaiju_test - 2018.03.06 at 16h 32m 58s.xml">
       <configuration name="All in Kaiju_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GiantTortoiseTest - 2018.03.06 at 16h 26m 26s.xml">
@@ -796,9 +799,6 @@
     </history-entry>
     <history-entry file="GiantTortoiseTest - 2018.03.06 at 16h 26m 42s.xml">
       <configuration name="GiantTortoiseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GiantTortoiseTest_canAttack - 2018.03.06 at 16h 08m 24s.xml">
-      <configuration name="GiantTortoiseTest.canAttack" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GiantTortoiseTest_canAttack - 2018.03.06 at 16h 08m 37s.xml">
       <configuration name="GiantTortoiseTest.canAttack" configurationId="JUnit" />
@@ -832,7 +832,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -941,26 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RobotJesusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="38" column="85" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Vechile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -974,21 +954,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GiantTortoise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RobotJesus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RobotJesusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GiantTortoiseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="38" column="112" lean-forward="false" selection-start-line="38" selection-start-column="112" selection-end-line="38" selection-end-column="112" />
+        <state relative-caret-position="135">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#367#368#0" expanded="true" />
@@ -999,17 +1024,8 @@
             <element signature="e#628#629#0" expanded="true" />
             <element signature="e#663#664#0" expanded="true" />
             <element signature="e#723#724#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GiantTortoise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
           </folding>
         </state>
       </provider>

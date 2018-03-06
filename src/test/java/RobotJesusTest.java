@@ -38,4 +38,9 @@ public class RobotJesusTest {
     public void canAttack() {
         assertEquals("Bombadier has been destroyed", robotJesus.attackVechile(tank));
     }
+
+    @Test
+    public void canMove(){
+        assertEquals("Chucky has just levitated", robotJesus.move("levitated"));
+    }
 }
