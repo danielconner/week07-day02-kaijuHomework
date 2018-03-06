@@ -6,10 +6,12 @@ import static org.junit.Assert.assertEquals;
 public class TankTest {
 
     Tank tank;
+    RobotJesus jesus;
 
     @Before
     public void before(){
         tank = new Tank("Destroya", 35);
+        jesus = new RobotJesus("Dave", 100, 20);
     }
 
     @Test
@@ -20,5 +22,10 @@ public class TankTest {
     @Test
     public void getHealth(){
         assertEquals(35, tank.getHealth());
+    }
+
+    @Test
+    public void canAttackKaiju(){
+        assertEquals("Destroya has attacked Dave", tank.armyAttack(jesus));
     }
 }
